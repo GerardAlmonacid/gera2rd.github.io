@@ -1,0 +1,293 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Ojuju", sans-serif;
+    background-color: rgb(155, 154, 154);
+}
+
+.Nav{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(59, 57, 57);
+    z-index: 2;
+
+}
+.Sub-nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Sub-nav .a-Right{
+   margin-left: 20px ;
+   
+}
+.Sub-nav .a-Right a{
+    font-size: 23px;
+    font-family:  "Rakkas", serif;
+}
+
+.Sub-nav .a-Left{
+    margin-right: 20px;
+}
+
+.Sub-nav .a-Left a{
+    margin-right: 45px;
+    font-size: 23px;
+    font-family:  "Rakkas", serif;
+    margin-left: 45px;
+}
+.Sub-nav .a-Left button{
+    background-color: rgb(62, 175, 219);
+    border: 1px solid blue;
+    color: #ffffff;
+    width: 100px;
+    height: 20px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.Container{
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    width: 1100px;
+    height: 500px;
+    top: 10%;
+    left: 0%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px  black;
+
+    
+    
+}
+.Skybluebar{
+
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    margin-top: 70px;
+    margin-left:60px;
+   border: 1px rgb(155, 143, 143) solid;
+   border-radius: 100%;
+    
+    
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+   
+    
+
+}
+.Texto h1{
+    margin-top: 90px;
+    color: rgb(32, 29, 29);
+}
+.Texto p{
+    color: rgb(37, 36, 36);
+}
+.alinear{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.alinear2{
+    margin-top: 10px;
+    width: 80px;
+    margin-left: 60px;
+    font-family: "Ojuju", sans-serif;
+    border: 1px solid white ;
+    border-radius: 10px;
+    box-sizing: content-box;
+    color: black;
+}
+.Education{
+    position: absolute;
+    width: 1100px;
+    height: 200px;
+    left: 0%;
+    top: 100%;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px  black;
+
+}
+.Sub-Education{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Sub-Education h1{
+    margin-bottom: 10px;
+}
+.Solicitudes{
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    top: 12%;
+    left: 70%;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px  black;
+
+
+}
+.Sub-solicitudes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.Sub-solicitudes-box{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   font-size: 10px;
+  
+}
+.Sub-solicitudes-box h1{
+   font-size: 10px;
+}
+.Box1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Box1 p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.Box2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Box2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.Correcto{
+    background-image: url("download\ \(1\).png");
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(136, 20, 20);
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 18px;
+    margin-right: 18px;
+    
+}
+.Incorrecto{
+    background-image: url("images.png");
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(167, 18, 18);
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.Box1 img{
+    width: 30px;
+    height: 30px;
+    border:solid 1px white; 
+    border-radius: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.Box2 img{
+    width: 30px;
+    height: 30px;
+    border:solid 1px white; 
+    border-radius: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.Conexiones{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 25%;
+    height: 44%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px  black;
+
+}
+.Sub-conexiones{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.Box-H1{
+    display: flex;
+    align-items:center ;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 18px;
+ 
+}
+.Img1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.Img1 img{
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 30px;
+    height: 30px;
+    border:solid 1px white; 
+    border-radius: 20px;
+    
+}
